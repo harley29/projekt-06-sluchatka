@@ -17,3 +17,241 @@ font-weight: 700;
 /* -------------------------------------------------- */
 
 
+
+/*sekce mobil*/
+@media (max-width:480px){
+    
+
+}
+
+/*sekce tablet*/
+@media (max-width:768px){
+    
+}
+/*sekce pc*/
+/*@media (max-width:1140px){*/
+    
+    
+    .uvod{
+        display: flex;
+        width: 1140px;
+        max-height: 600px;
+        background-color: #f5f5f5;
+       
+    }
+    .logo{
+        width: 100px;
+        height: 30px;
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+    .hlavicka{
+        display: flex;
+        width: 1140px;
+    }
+    .hlavicka-vpravo{
+        display: flex;
+        padding-left: 30%;
+    }
+    h1{
+        font-size: 44px;
+        font-weight: 300;
+        line-height: 1.2;
+       
+    }
+
+        .menu li{
+         display: inline-block;
+        
+    }
+    .menu{
+        height: 40px;
+        margin-top: 50px;
+        margin-right: 30px;
+    }
+    .menu a{
+        text-decoration: none;
+        font-size: 13px;
+        color: #959595;
+        text-transform: uppercase;
+        margin-left: 10px;
+        
+    }
+    .menu-tlacitka{
+        text-align: right;
+        margin-left: 5px;
+        margin-top: 50px;
+    }
+    .banner{
+        display: flex;
+    }
+    .banner-text{
+        display: flex;
+        flex-direction: column;
+        min-height: 600px;
+        max-width: 420px;
+        margin-left: 80px;
+    }
+    .upoutavka{
+       
+        font-size: 18px;
+        color: #a5a5a5;
+        width: 350px;
+    }
+    .tlacitko-velke{
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        background-color: #3498db;
+        padding: 10px;
+        
+        border: 1px solid #3498db;
+        border-radius: 10%;
+        width: 150px;
+    }
+    .tlacitko-primarni{
+        font-size: 13px;
+        font-weight: 600;
+        text-decoration: none;
+        color: white;
+        background-color: #3498db;
+        border: 1px solid #3498db;
+        border-radius: 5%;
+        padding: 5px;
+    }
+    .tlacitko-sekundarni{
+        font-size: 13px;
+        font-weight: 600;
+        text-decoration: none;
+        color: #252525;
+        border: 1px solid #252525;
+        padding: 5px;
+    }
+    .minitext{
+        font-size: 13px;
+     
+    }
+    .minitext a{
+        color:#3498db;
+    }
+    .banner-foto {
+        width:700px;
+       
+        margin-left: -140px;
+        min-height: 400px;
+       
+    }
+    .banner-foto img{
+        width: 700px;
+        height: 493px;
+       
+    }
+    .sekce-bila{
+        max-width: 1140px;
+    }
+    .vlastnosti{
+        display: flex;
+        flex-wrap: wrap;
+        width: 980px;
+        margin-left: 80px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+    }
+    .vlastnost{
+        width: 475px;
+        height: 200px;
+        border: 2px solid #f5f5f5;
+       
+    }
+    .vlastnost p{
+        margin-right: 30px;
+      
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .vlastnost a{
+        font-size: 13px;
+        color: #3498db;
+        
+        margin-bottom: 30px;
+    }
+    .kufrik,
+    .zvuky,
+    .srdicko,
+    .slunicko{
+        width: 50px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .ikona-zvuk,
+    .ikona-srdce{
+        margin-top: 30px;
+
+    }
+    .ikona-zvuk,
+    .ikona-slunce{
+        margin-left: 30px;
+      
+
+    }
+    .text-kufr,
+    .text-srdce,
+    .text-slunce,
+    .text-zvuk{
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        margin-top: -90px;
+        margin-left: 110px;
+    }
+
+    h2{
+        font-weight: bold;
+        font-size: 16px;
+    
+        margin-top: 30px;
+        margin-right: 0;
+    }
+    .sekce-cerna{
+       
+        max-width: 1140px;
+       background-color: #252525;
+      
+    }
+    .paticka{
+        display: flex;
+        justify-content: space-between;
+    }
+    .paticka-menu{
+        width: 50%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 80px;
+        margin-left: 330px;
+    
+    }
+    .paticka-menu a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Rubik', sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        margin-right: 10px;
+
+    }
+    .paticka-menu li{
+        display: inline-block;
+    }
+    .copyright{
+        width: 50%;
+        font-size: 13px;
+        color: #959595;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 0;
+        margin-left: 80px;
+    }
